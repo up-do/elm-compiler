@@ -1,31 +1,10 @@
 import: ./project-stackage/ghc-9.8.1.config
 
--- We have 1 packages.
+-- We have 1 package.
 packages:
     .
 
-
--- We have 0 source packages listed in this order:
---   * external 0
---   * internal 0
---   * external forks 0
---   * internal forks 0
-
--- Source Packages, external (3rd party).
-
-
--- Source Packages, internal to this organisation (private and public).
-
-
--- Source Packages, external (3rd party) forks of other repositories.
--- Can we help upstream?
-
-
--- Source Packages, internal forks of other repositories.
--- Can we upstream and unfork?
-
-
--- Constraints are equivalent to stack package-version extra dependencies.
+-- Version equality constraints.
 constraints:
     base ==4.19.0.0
   , binary ==0.8.9.1
@@ -120,7 +99,6 @@ constraints:
   , old-time ==1.1.0.3
   , vector-stream ==0.1.0.0
   , digest ==0.0.1.7
-
 program-options
   ghc-options: -fhide-source-paths
 
